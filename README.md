@@ -8,16 +8,16 @@ This is the Next.js application for Web Frontend Template
 
 ## uTests Coverage Status
 
-| Statements                  | Branches                | Functions                 | Lines             |
-| --------------------------- | ----------------------- | ------------------------- | ----------------- |
+| Statements                                                                         | Branches                                                                       | Functions                                                                           | Lines                                                                       |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | ![Statements](https://img.shields.io/badge/statements-77.12%25-red.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-54.23%25-red.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-87.09%25-yellow.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-81.11%25-yellow.svg?style=flat) |
 
 ## What chore library inside this repository?
 
 ```
 - jest & testing-library
-- bootstrap 5
-- react-query
+- tailwindcss
+- @tanstack/query
 - nextjs@latest
 - axios
 - dayjs
@@ -28,8 +28,8 @@ This is the Next.js application for Web Frontend Template
 Prerequisite
 
 ```
-node ^v14.17.0
-npm ^6.14.13
+node ^v20.11.1
+pnpm ^8.15.4
 ```
 
 run script
