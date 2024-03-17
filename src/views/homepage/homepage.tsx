@@ -1,11 +1,9 @@
 import React, { memo } from "react";
 
-import styles from "./homepage.module.scss";
-
 const Homepage: React.FC = () => {
   return (
     <>
-      <div className={styles.homepage}>Homepage</div>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </>
   );
 };
