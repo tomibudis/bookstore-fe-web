@@ -40,7 +40,9 @@ const Book: React.FC<BookProps> = ({
           </p>
         </div>
 
-        <Button onClick={onClick}>{buttonAction}</Button>
+        <div className="flex">
+          <Button onClick={onClick}>{buttonAction}</Button>
+        </div>
       </div>
     </div>
   );

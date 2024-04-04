@@ -9,6 +9,7 @@ const nextConfig = {
       "images.unsplash.com",
       "www.hellotoms.com",
       "images-na.ssl-images-amazon.com",
+      "loremflickr.com",
     ],
   },
 };

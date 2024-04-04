@@ -1,6 +1,19 @@
-# Next Typescript Boilerplate
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://avatars.githubusercontent.com/u/122791452?s=200&v=4" width="200" alt="My Logo" /></a>
+</p>
 
-This is the Next.js application for Web Frontend Template
+<h3 align="center">BookStore Frontend Web</h3>
+
+## Description
+
+This is a frontend app bookstore system that is being developed as part of an interview test for Hyperhire. The app is being built using the Nextjs (typescript) framework
+
+more detail about the framework here the link https://nextjs.org/
+boilerplate pull from my studio on https://github.com/toms-studio/codelabs-next-web
+
+## Deployment
+
+host: https://bookstore-fe-web.vercel.app/
 
 ### Lighthouse
 
@@ -17,51 +30,69 @@ This is the Next.js application for Web Frontend Template
 ```
 - jest & testing-library
 - tailwindcss
-- @tanstack/query
+- tanstack/react-query
 - nextjs@latest
+- zustand
 - axios
 - dayjs
 ```
 
-## How to Install
+## Prerequisite
 
-Prerequisite
+if you are vscode person let's follow our pattern rules to setup editor. otherwise let's ignore this section and jump to the next part.
+first of all you should to ensure installed several extension as follow
+
+- last version vscode
+- Tailwind CSS IntelliSense
+- Prettier
+- Eslint
+- TODO Highlight
+
+and also ensure install on your machine
 
 ```
-node ^v20.11.1
-pnpm ^8.15.4
+node ^v18.13.0
+pnpm ^7.18.1
 ```
 
-run script
+when preparation are done let's start the installation
 
-```
-npx tomibudis/codelabs-next-web {appName}
-```
+- pnpm install
 
-When init project successfully. follow the following command script to start
+once the process finish
+run script `pnpm dev` to run development mode
+
+if want to prod mode
+run script bellow
+
+- pnpm build
+- pnpm start
+
+Hint:
+open suggestion tailwind we can press with `control + space`
 
 ## Development
 
 **Run locally as dev mode**
 
-- npm run install
-- npm run dev
+- pnpm install
+- pnpm run dev
 - open http://localhost:3000
 
 **Build Mode (production)**
 
-- npm run install
-- npm run build
-- npm run start
+- pnpm install
+- pnpm build
+- pnpm start
 - open http://localhost:3000
 
 **uTest**
 
-- npm run test
+- pnpm test
 
 **build coverage badge**
 
-- npm run test:coverage
+- pnpm test:coverage
 
 ### Folder Structure
 
@@ -83,7 +114,6 @@ src
 │   │   └── hello.ts
 │   └── index.tsx
 ├── styles
-│   ├── config.scss
 │   └── globals.scss
 ├── types
 ├── utils
@@ -126,10 +156,16 @@ Main types are `fix` and `feat`, however it is possible to also use:
 - `perf`
 - `test`
 
-Additional information can be found [here](https://github.com/KWRI/engineering-resources/blob/develop/git/commit_standards.md)
-
 ## Generate lighthouse
 
 1. build application with `npm run build`
 2. run app locally `npm run start`
 3. run `npx lighthouse-badges --urls http://localhost:3000 -o lighthouse`
+
+## Maintainers
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/tomibudis"><img src="https://github.com/tomibudis.png?size=100" width="100px;" alt="Tomi Budi"/><br /><sub><b>Tomi Budi</b></sub></a><br /></td>
+  </tr>
+</table>

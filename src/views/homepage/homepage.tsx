@@ -1,10 +1,12 @@
 import React, { memo } from "react";
+import dynamic from "next/dynamic";
 
 import FilterAndSearch from "./filter-and-search/index";
 import ListBooks from "./list-books";
 import Banner from "~views/banner/banner";
-import Navbar from "~views/navbar/navbar";
 import Footer from "~views/footer/footer";
+
+const Navbar = dynamic(() => import("~views/navbar/navbar"), { ssr: false });
 
 const Homepage: React.FC = () => {
   return (

@@ -3,3 +3,5 @@ export const SIZE = {
   SMALL: "small",
   EXTRA_SMALL: "extraSmall",
 };
+
+export const LOCALSTORAGE_KEY = "hyperhire-user";
