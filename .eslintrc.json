@@ -1,5 +1,8 @@
 {
-  "plugins": ["@typescript-eslint", "testing-library"],
+  "plugins": [
+    "@typescript-eslint",
+    "testing-library"
+  ],
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
@@ -14,11 +17,14 @@
         "**/__tests__/**/*.[jt]s?(x)",
         "**/?(*.)+(spec|test).[jt]s?(x)"
       ],
-      "extends": ["plugin:testing-library/react"]
+      "extends": [
+        "plugin:testing-library/react"
+      ]
     }
   ],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
+    "react/prop-types": "off",
     "@typescript-eslint/no-explicit-any": "error"
   }
 }

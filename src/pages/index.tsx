@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Codelabs Next PWA</title>
+        <title>Hellotoms BookStore</title>
       </Head>
       <Homepage />
     </>

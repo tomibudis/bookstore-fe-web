@@ -3,6 +3,14 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: [
+      "avatars.githubusercontent.com",
+      "images.unsplash.com",
+      "www.hellotoms.com",
+      "images-na.ssl-images-amazon.com",
+    ],
+  },
 };
 
 module.exports = nextConfig;

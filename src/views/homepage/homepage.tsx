@@ -1,9 +1,19 @@
 import React, { memo } from "react";
 
+import FilterAndSearch from "./filter-and-search/index";
+import ListBooks from "./list-books";
+import Banner from "~views/banner/banner";
+import Navbar from "~views/navbar/navbar";
+import Footer from "~views/footer/footer";
+
 const Homepage: React.FC = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Homepage</h1>
+      <Navbar />
+      <Banner />
+      <FilterAndSearch />
+      <ListBooks />
+      <Footer />
     </>
   );
 };
